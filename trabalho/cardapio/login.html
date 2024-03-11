@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+
+    <form>
+        <div id="login-page">
+            <fieldset>
+
+                <form>
+                    <input type="text" placeholder="Login" id="login">
+                    <input type="password" placeholder="Senha" id="senha">
+                    <button type="button" onclick="logar()">Entrar </button>
+                </fieldset>
+                <style>
+                    body {
+                        background-color: rgb(43, 43, 43);
+                        width: 1000px ;
+                        height: 100%;
+                        background-image: url(imagens/polofullhd4k.jpeg);
+                        max-width: 100vh;
+
+
+                        background-repeat: no-repeat;
+                        background-size: 100vh;
+                        background-position-x: center;
+                        background-position-y: 0px;
+
+                    }
+
+                    button {
+                        border-radius: 1cm;
+                    }
+
+                    #login {
+                        height: 20px;
+                    }
+
+                    #senha {
+                        height: 20px;
+                    }
+
+                    #login-page {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        margin-top: 36cqmax;
+                        margin-left: 46VW;
+
+
+                    }
+                </style>
+            </form>
+
+        </div>
+
+    </form>
+
+    <script>
+        function logar() {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value
+
+            if (login == "serginho" && senha == "serginho123") {
+                alert('Sucesso');
+                location.href ='../Hamburgayria/index.html'
+            }
+            else {
+                alert('Usuario ou Senha Inconrretos')
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

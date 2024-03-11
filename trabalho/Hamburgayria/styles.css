@@ -1,0 +1,58 @@
+
+#logo {
+    margin-left: 10px;
+    border-radius: 20%;
+    margin-top: 1.6%;
+    margin-left: 0.5%;
+}
+
+#barra {
+    background-color: rgba(255, 166, 0, 0.562);
+    position: static;
+    height: 19vh;
+    width: 1599px;
+    margin-top: -1%;
+    margin-left: -1%;
+    display: flex;
+    gap: 50vh;
+}
+
+body {
+    background-color: #E8D3B6;
+    background-position: center;
+    background-size: 1024px;
+    height: 1500px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.carousel-inner .carousel-item img{
+    min-width: 100vw;
+    height: 70vh;
+
+}
+
+.imagens-slide {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+}
+
+#local{
+    width: 200px;
+    margin-left: 1%;
+    border-radius: 20%;
+}
+.pprt1 {
+    display: flex;
+}
+.pprt {
+    display: flex;
+}
+
+
